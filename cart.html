@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vipawadee-Cart</title>
+    <link rel="stylesheet" href="cartstyles.css">
+	<link rel="stylesheet" href="breakpoint.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--font here-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Kodchasan:wght@500&family=Prompt:wght@300&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <!--Loaders-->
+    <div id="load" class="container">
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+	
+   <!---header Section--->
+
+    <section id="header">
+		<a href="#"><img src="555555555555-02-removebg-preview (1).png" class="logo" alt="logo"></a>
+		<div>
+			<ul id="navbar">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="shop.html">Shop</a></li>
+				<li><a  href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li id="lg-bag"><a class="active" href="cart.html"><i class='bx bx-shopping-bag'></i></a></li>
+				<a href="#" id="close"><i class='bx bx-x'></i></a>
+			</ul>
+		</div>
+		<div id="mobile">
+			<a href="cart.html"><i class='bx bx-shopping-bag'></i></a>
+			<i id="bar" class="fas fa-outdent"></i>
+			
+		</div>
+    </section>
+    <!-- page-header section -->
+	<section id="page-header" class="about-header">
+        <h2>#let's_talk</h2>
+        <p>LEAVE A MESSAGE,We love to hear from you! </p>
+    </section>
+	
+    <!-- cart section -->
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>REMOVE</td>
+                    <td>IMAGE</td>
+                    <td>PRODUCT</td>
+                    <td>PRICE</td>
+                    <td>QUANTITY</td>
+                    <td>SUBTOTAL</td>
+                </tr>
+            </thead>
+            <Tbody>
+                <tr>
+                   <td><i class='bx bx-x-circle' ><a href=""></a></i></td>
+                   <td><img src="img/products/f1.jpg" alt=""></td>
+                   <td>T-Shirts</td>
+                   <td>$118.9</td>
+                   <td><input type="number" value="1"></td>
+                   <td>$118.9</td>
+                </tr>
+
+                 <tr>
+                    <td><i class='bx bx-x-circle' ><a href=""></a></i></td>
+                    <td><img src="img/products/f2.jpg" alt=""></td>
+                    <td>T-Shirts</td>
+                    <td>$118.9</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$118.9</td>
+                 </tr>
+
+                 <tr>
+                    <td><i class='bx bx-x-circle' ><a href=""></a></i></td>
+                    <td><img src="img/products/f3.jpg" alt=""></td>
+                    <td>T-Shirts</td>
+                    <td>$118.9</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$118.9</td>
+                 </tr>
+            </Tbody>
+        </table>
+    </section>
+	
+    <!-- cart-add section -->
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div class="from">
+                <input type="text" autocomplete="off" name="text" class="input" placeholder="Enter Your Coupon">
+                <button><span>Submit</span></button>
+              </div>
+            </div>
+
+              <div id="subtotal">
+                <h3>Cart Totals</h3>
+                <table>
+                    <tr>
+                        <td>Cart SubTotals</td>
+                        <td>$ 335</td>
+                    </tr>
+                    <tr>
+                        <td>Shipping</td>
+                        <td>Free</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Total</strong></td>
+                        <td><strong>$ 355</strong></td>
+                    </tr>
+                </table>
+                <button class="btn"> Proceed to checkout
+                </button>
+              </div>
+    </section>
+	<!-- footer Section -->
+	<footer class="section-p1">
+		<div class="col">
+			<img class="logo" src="img/logo.png" alt="logo">
+			<h4>Contact</h4>
+			<p><strong>Address:</strong>somewhere in Thailand</p>
+			<p><strong>Phone:</strong> 092-000-0000</p>
+			<p><strong>Hours</strong> 8.00AM-9.00PM Everyday</p>
+			<div class="follow">
+				<h4>Follow us</h4>
+				<div class="icon">
+					<i class="fab fa-facebook-f"></i>
+					<i class="fab fa-twitter"></i>
+					<i class="fab fa-instagram"></i>
+					<i class="fab fa-youtube"></i>
+				</div>
+			</div>
+		</div>
+
+		<div class="col">
+			<h4>About</h4>
+			<a href="#">About Us</a>
+			<a href="#">Delivery Information</a>
+			<a href="#">Privacy Policy</a>
+			<a href="#">Terms & Condition</a>
+			<a href="#">Contact Us</a>
+		</div>
+
+		<div class="col">
+			<h4>My Account</h4>
+			<a href="#">Sign in</a>
+			<a href="#">View Cart</a>
+			<a href="#">My Wishlist</a>
+			<a href="#">Track My Orders</a>
+			<a href="#">Help</a>
+		</div>
+
+		<div class="col install">
+			<h4>Install App</h4>
+			<p>From App Store or Google play</p>
+			<div class="row">
+				<img src="img/pay/app.jpg" alt="">
+				<img src="img/pay/play.jpg" alt="">
+			</div>
+			<p>Secured Payment Gateways</p>
+			<img src="img/pay/pay.png" alt="">
+		</div>
+
+		<div class="copyright">
+			<p>2021, Tech2 etc - HTML CSS Ecommerce Template</p>
+		</div>
+	</footer>
+
+    <script src="script.js"></script>
+	
+</body>
+</html>
